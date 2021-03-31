@@ -18,6 +18,12 @@ document.write("\"Human beings are the only animal that forms ideas about their 
 + "We must agree on what is real. "
 + "Because of this, we are the only animal on Earth that goes mad.\" ")
 
+//Concatenating variables
+
+var ice = "Blue Dragon", fire = "Red Dragon";
+
+document.write(ice+fire)
+
 //Assigning multiple variables at once, using the items I see
 var Desk = "Brown", Pierre = "Brown and White",
     Frog = "Green", Ice_Giant = "Blue";
