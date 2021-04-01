@@ -12,3 +12,10 @@ function myfunction () {
     sentence += " a lot from this book!"
     document.getElementById("concatenate").innerHTML = sentence;
 }
+
+//Write your own function and getElementByID challenge 
+
+function color_function () {
+    var x = document.getElementById("color");
+    x.style.color = "red";
+}
