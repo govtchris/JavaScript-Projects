@@ -38,3 +38,9 @@ document.write(frieza);
 //Writing an expression
 document.write(68*9)
 
+//Assigning the time and date function for an HTML event
+function displayDate() {
+    document.getElementById("time").innerHTML = Date();
+  }
+
+
