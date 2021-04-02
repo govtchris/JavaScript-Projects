@@ -56,7 +56,12 @@ function decrease_Operator () {
 //Random Number Generators
 window.alert(Math.random() * 92);
 
-//Math Objects
+function random_Function (){
+    document.getElementById("Random").innerHTML = Math.random ();
+}
+
+
+//Math Objects and Methods
 function pIe (){ 
     document.getElementById("PIE").innerHTML = Math.PI;
 }
