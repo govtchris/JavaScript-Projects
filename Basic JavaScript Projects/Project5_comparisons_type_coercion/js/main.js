@@ -16,7 +16,7 @@ function true_String () {
 }
 
 //False Not a Number Test
-function true_String () {
+function false_String () {
     document.getElementById("False").innerHTML = isNaN(87);
     }
     
@@ -60,3 +60,22 @@ document.write(X===Y)
 X = 87;
 Y = 78;
 document.write(X===Y)
+
+//Boolean And/Or Statements
+//True And
+document.write(8>7 && 9>8);
+//False And
+document.write(8>7 && 9<8);
+//True Or
+document.write(8>7 || 9<8);
+//False Or
+document.write(8<7 || 9<8);
+
+//Not Operator
+function not_Function1 () {
+    document.getElementById("NO1").innerHTML = ! (8>7);
+}
+
+function not_Function2 () {
+    document.getElementById("NO2").innerHTML = ! (8<7);
+}
