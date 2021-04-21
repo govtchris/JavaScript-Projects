@@ -29,14 +29,19 @@ $(document).ready(function() {
         $('h1').hide()
     });
 
-    //This function turns the paragraph with id 4 blue when clicked
+    //This function turns the paragraph with id 4 blue when clicked.
     $("#4") .click(function() {
         $("#4") .css({"color":"blue"});
     });
+
+    //This function causes the paragraph with id 2 to slide up.
     $("#5") .click(function() {
         $("#2").slideUp( 1000 )
     });
 
+    $("#5") .click(function() {
+       $("div.hidden").slideDown( 1000 )
+    });
 });
 
 </script>
